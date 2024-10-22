@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar-toggler{
+    border: hidden;
+}
+
+
+.navbar-brand{
+    color: #0E1F51;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link.active {
+    color: #FF3E54;
+    text-decoration: underline;
+    text-decoration-color: #FF3E54;
+    text-decoration-thickness: 0.1875rem;
+    text-underline-offset: 0.25rem;
+}
+
+a img{
+    width: 2.5rem;
+    height:2.618125rem ;
+}
+
+li button{
+    color: #fff !important;
+    background: #FF3E54 !important;
+    border: none;
+}
+
+.secondcont{
+    background: #0E1F51;
+    width: 100%;
+    padding-top: 4.375rem ;
+    padding-bottom: 4.375rem ;
+}
+
+.secondcont h1 {
+    color: #FF3E54;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.underline {
+    display: inline-block;
+    position: relative;
+}
+
+.underline::after {
+    content: '';
+    width: 3.75rem;
+    height: 0.25rem;
+    background-color: #FF3E54;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+}
+
+.icon-box {
+    background-color: #fff;
+    width: 3.125rem;
+    height: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.social-icons a {
+    color: #FF3E54;
+    background: #fff;
+    border-radius: 25%;
+    font-size: 1.3rem;
+    margin-right: 0.65rem;
+}
+
+.soc-i a{
+    background: #ff3e54;
+    color: #fff;
+}
+
+.btn-submit, input.btn {
+    background: #FF3E54;
+    border: none;
+    color: white;
+}
+
+.btn-submit:hover {
+    background: #FF3E54;;
+}
+
+footer {
+    padding: 3.75rem 0;
+    background:#0E1F51;
+    color: #fff;    
+}
+
+
+p.mt-0{
+    color: #FF3E54 !important;
+}
+
+main{
+    background: #F8F8F8;
+}
+
+.getintouch div{
+    color:#FF3E54;
+    padding-top: 1.875rem;
+}
+
+.getintouchtwo{
+    padding-bottom: 6.875rem !important;
+}
+
+input[type=text],[type=email], #textarea{
+    border: none !important;
+    background: #d3d3d3 !important;
+
+}
+
+#textarea{
+    height: 8.125rem;
+}
+
+div a{
+    text-decoration: none;
+    color: #0E1F51;
+}
+
+.bi-telephone-fill{
+    color: #FF3E54;
+    background: #d3d3d3;
+}
+.bi-envelope-fill{
+    color: #FF3E54;
+    background: #d3d3d3;
+}
+.bi-geo-alt-fill{
+    color: #FF3E54;
+    background: #d3d3d3;
+}
+
+.background-section {
+    background-image: url('img/Rectangle\ 14.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.btn2, .bg-danger{
+    background-color: #FF3E54 !important;
+}
+
+.col4{
+    border: 1px solid #d3d3d3;
+    color: #d3d3d3;
+}
+
+@media (min-width: 992px) {
+    .navbar{
+        margin: 0 9.375rem 0 6.25rem !important;
+    }
+    .navbar-nav .nav-link.active {
+        color: #FF3E54;
+        text-decoration: underline;
+        text-decoration-color: #FF3E54;
+        text-decoration-thickness: 0.1875rem;
+        text-underline-offset: 0.4375rem;
+    }
+    .secondcont {
+        padding-top: 6.25rem;
+        padding-bottom: 6.25rem;
+    }
+    div.social-icons {
+        margin-top: 8.55rem;
+    }
+}
